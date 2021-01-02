@@ -76,3 +76,27 @@
     line-height: 2;
   }
 }
+
+footer {
+  .social-media-icons {
+    a {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  }
+
+  .copyright {
+    font-size: 12px;
+    font-family: "Myriad Pro", sans-serif;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  footer {
+    .social-media-icons {
+      a {
+        margin-left: 25px;
+      }
+    }
+  }
+}
