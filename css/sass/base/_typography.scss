@@ -1,0 +1,50 @@
+h2 {
+  font-size: 66.557px;
+}
+
+h3 {
+  font-size: 26.623px;
+}
+
+h4 {
+  font-size: 34.389px;
+}
+
+h5 {
+  font-size: 26px;
+}
+
+h6 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 14px;
+}
+
+.red-header {
+  font-family: "Moonshiner", sans-serif;
+  color: rgb(226, 48, 0);
+  line-height: 1.262;
+  -moz-transform: matrix(0.90148216397562, 0, 0, 0.90148216397562, 0, 0);
+  -webkit-transform: matrix(0.90148216397562, 0, 0, 0.90148216397562, 0, 0);
+  -ms-transform: matrix(0.90148216397562, 0, 0, 0.90148216397562, 0, 0);
+  /*position: absolute;
+  left: 299.963px;
+  top: 1021.503px;*/
+  z-index: 16;
+}
+
+.red-header-background {
+  font-size: 92.734px;
+  font-family: "Moonshiner", sans-serif;
+  color: rgba(226, 48, 0, 0.102);
+  line-height: 0.906;
+  -moz-transform: matrix(1.24011248585668, 0, 0, 1.24011248585668, 0, 0);
+  -webkit-transform: matrix(1.24011248585668, 0, 0, 1.24011248585668, 0, 0);
+  -ms-transform: matrix(1.24011248585668, 0, 0, 1.24011248585668, 0, 0);
+  /*position: absolute;
+  left: 261.104px;
+  top: 1003.491px;*/
+  z-index: 17;
+}
