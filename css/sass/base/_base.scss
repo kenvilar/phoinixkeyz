@@ -2,6 +2,31 @@
   background-color: #000000;
   color: #ffffff;
 }
+
+.black-gray {
+background-color: #212121;
+}
+
 .card {
   background-color: initial;
+
+  &.music {
+    img {
+      border-radius: 50%;
+      background-image: -moz-radial-gradient(50% 50%, circle closest-side, rgb(0, 0, 0) 0%, rgb(255, 255, 255) 100%);
+      background-image: -webkit-radial-gradient(50% 50%, circle closest-side, rgb(0, 0, 0) 0%, rgb(255, 255, 255) 100%);
+      background-image: -ms-radial-gradient(50% 50%, circle closest-side, rgb(0, 0, 0) 0%, rgb(255, 255, 255) 100%);
+    }
+
+    .song-title {
+      font-family: "Myriad Pro", sans-serif;
+      color: rgb(244, 244, 244);
+    }
+
+    .song-description {
+      font-size: 12px;
+      font-family: "Myriad Pro", sans-serif;
+      color: rgb(244, 244, 244);
+    }
+  }
 }
