@@ -22,10 +22,10 @@
 @font-face {
   font-family: 'Myriad Pro';
   font-style: normal;
-  font-weight: 900;
+  font-weight: normal;
   src: url('../../fonts/MyriadPro-Regular.woff') format('woff2'), /* Super Modern Browsers */
-  url('../../fonts/MyriadPro-Regular.woff') format('font-woff'), /* Pretty Modern Browsers */
-  url('../../fonts/MyriadPro-Regular.woff') format('woff'); /* Pretty Modern Browsers */
+  url('../../fonts/MyriadPro-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+  url('../../fonts/MyriadPro-Regular.woff') format('font-woff'); /* Pretty Modern Browsers */
 }
 
 @font-face {
@@ -33,14 +33,17 @@
   font-style: normal;
   font-weight: 100;
   src: url('../../fonts/MyriadPro-Cond.woff') format('woff2'), /* Super Modern Browsers */
-  url('../../fonts/MyriadPro-Cond.woff') format('font-woff'), /* Pretty Modern Browsers */
-  url('../../fonts/MyriadPro-Cond.woff') format('woff'); /* Pretty Modern Browsers */
+  url('../../fonts/MyriadPro-Cond.woff') format('woff'), /* Pretty Modern Browsers */
+  url('../../fonts/MyriadPro-Cond.woff') format('font-woff'); /* Pretty Modern Browsers */
 }
 
 @font-face {
   font-family: 'Fjalla One';
   font-style: normal;
-  font-weight: 900;
+  font-weight: normal;
+  src: url("../../fonts/FjallaOne-Regular.otf") format("opentype"),
+  url('../../fonts/FjallaOne-Regular.ttf') format('truetype'); /* Safari, Android, iOS */
+;
 }
 
 .html {

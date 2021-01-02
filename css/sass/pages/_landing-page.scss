@@ -121,6 +121,38 @@
     color: initial;
   }
 
+  .first {
+    font-size: 107.6px;
+    font-family: "Moonshiner", sans-serif;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: center;
+  }
+
+  .second {
+    font-size: 60px;
+    font-weight: 100;
+    color: #cf2b00;
+    letter-spacing: 9px;
+  }
+
+  .third {
+    font-size: 34px;
+    letter-spacing: 4px;
+    font-weight: 100;
+  }
+
+  .shop-now {
+    font-size: 74.264px;
+    font-family: "Moonshiner-RegularLines", sans-serif;
+    color: rgb(0, 0, 0);
+  }
+
+  .second, .third {
+    font-family: "Myriad Pro Condensed", sans-serif;
+    line-height: 1.2;
+  }
+
   .bg-shopnow {
     background-image: url("../../img/tshirt.png");
     background-repeat: no-repeat;
