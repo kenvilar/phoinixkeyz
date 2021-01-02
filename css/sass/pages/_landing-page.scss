@@ -19,3 +19,15 @@
     }
   }
 }
+.shop__section {
+  .bg-white {
+    color: initial;
+  }
+  .bg-shopnow {
+    background-image: url("../../img/tshirt.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: auto;
+    height: 100%;
+  }
+}
