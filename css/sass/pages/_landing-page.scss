@@ -198,6 +198,13 @@
     font-size: 80px;
     font-family: "Moonshiner-Oblique", sans-serif;
     letter-spacing: 15px;
+    margin-bottom: 0;
+    line-height: 1;
+
+    @media (min-width: 768px) {
+      font-size: 60px;
+      letter-spacing: 15px;
+    }
   }
 
   .second {
@@ -205,6 +212,11 @@
     font-family: "Moonshiner", sans-serif;
     letter-spacing: 7px;
     line-height: 0.901;
+
+    @media (min-width: 768px) {
+      font-size: 84px;
+      letter-spacing: 5px;
+    }
   }
 
   input[type='email'], button[type='submit'] {
@@ -264,17 +276,25 @@
 footer {
   .social-media-icons {
     a {
-      padding-left: 10px;
-      padding-right: 10px;
+      padding-left: 0;
+      padding-right: 23px;
 
       @media (min-width: 768px) {
-        margin-left: 25px;
+        margin-left: 20px;
+        padding-left: 0;
+        padding-right: 0;
       }
     }
   }
 
   .copyright {
-    font-size: 12px;
+    font-size: 15px;
     font-family: "Myriad Pro", sans-serif;
+    letter-spacing: 0.5px;
+    font-weight: 100;
+
+    @media (min-width: 768px) {
+      letter-spacing: 0.1px;
+    }
   }
 }
