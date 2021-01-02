@@ -1,22 +1,117 @@
+.videos__section {
+  .music {
+    .icons a {
+      padding: 0 3px;
+
+      @media (max-width: 768px) {
+        img {
+          width: 36px;
+        }
+      }
+    }
+
+    .song-img {
+      border-radius: 50%;
+      background-image: -moz-radial-gradient(50% 50%, circle closest-side, rgb(0, 0, 0) 0%, rgb(255, 255, 255) 100%);
+      background-image: -webkit-radial-gradient(50% 50%, circle closest-side, rgb(0, 0, 0) 0%, rgb(255, 255, 255) 100%);
+      background-image: -ms-radial-gradient(50% 50%, circle closest-side, rgb(0, 0, 0) 0%, rgb(255, 255, 255) 100%);
+
+      @media (max-width: 768px) {
+        width: 139px;
+      }
+    }
+
+
+    .song-title {
+      font-family: "Myriad Pro", sans-serif;
+      color: #f4f4f4;
+      line-height: 0;
+      letter-spacing: 2px;
+    }
+
+    .song-description {
+      font-size: 12px;
+      font-family: "Myriad Pro", sans-serif;
+      color: rgb(244, 244, 244);
+
+      @media (max-width: 768px) {
+        font-size: 17px;
+      }
+    }
+
+    .song-list {
+      .title {
+        letter-spacing: 1px;
+      }
+
+      .title, .time {
+        font-size: 14px;
+        font-family: "Myriad Pro", sans-serif;
+        color: #f4f4f4;
+        font-weight: bold;
+      }
+
+      .time {
+        letter-spacing: 2px;
+      }
+    }
+  }
+}
+
 .tour__section {
   .content {
-    font-size: 26px;
-    font-family: "Myriad Pro", sans-serif;
-    color: rgb(255, 255, 255);
+    font-family: "Myriad Pro Condensed", sans-serif;
     line-height: 1.2;
+    letter-spacing: 4px;
+
+    .first {
+      font-size: 26px;
+
+      @media (max-width: 768px) {
+        font-size: 45px;
+        letter-spacing: 8px;
+        margin-bottom: 12px;
+      }
+    }
+
+    .second {
+      font-size: 20px;
+
+      @media (max-width: 768px) {
+        font-size: 34px;
+        letter-spacing: 5px;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .first, .second {
+        font-weight: 100 !important;
+      }
+    }
   }
 
   .image-wrapper {
+    img {
+      @media (max-width: 768px) {
+        width: 100%;
+      }
+    }
+
     div {
       font-size: 20px;
-      font-family: "Myriad Pro", sans-serif;
+      font-family: "Myriad Pro Condensed", sans-serif;
       color: rgb(255, 255, 255);
-      line-height: 1.2;
+      line-height: 2.2;
       bottom: 0;
-      background-color: #000000;
-      opacity: 0.8;
+      background-color: rgba(0, 0, 0, 0.8);
       width: 100%;
       text-align: center;
+      letter-spacing: 3px;
+
+      @media (max-width: 768px) {
+        font-size: 69px;
+        line-height: 1.7;
+      }
     }
   }
 }
@@ -82,21 +177,15 @@ footer {
     a {
       padding-left: 10px;
       padding-right: 10px;
+
+      @media (min-width: 768px) {
+        margin-left: 25px;
+      }
     }
   }
 
   .copyright {
     font-size: 12px;
     font-family: "Myriad Pro", sans-serif;
-  }
-}
-
-@media only screen and (min-width: 768px) {
-  footer {
-    .social-media-icons {
-      a {
-        margin-left: 25px;
-      }
-    }
   }
 }

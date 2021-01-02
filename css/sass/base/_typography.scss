@@ -1,3 +1,52 @@
+@font-face {
+  font-family: 'Moonshiner';
+  font-style: normal;
+  font-weight: 900;
+  src: url("../../fonts/Moonshiner-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'Moonshiner-RegularLines';
+  font-style: normal;
+  font-weight: 900;
+  src: url("../../fonts/Moonshiner-RegularLines.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'Moonshiner-Oblique';
+  font-style: normal;
+  font-weight: 900;
+  src: url("../../fonts/Moonshiner-Oblique.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'Myriad Pro';
+  font-style: normal;
+  font-weight: 900;
+  src: url('../../fonts/MyriadPro-Regular.woff') format('woff2'), /* Super Modern Browsers */
+  url('../../fonts/MyriadPro-Regular.woff') format('font-woff'), /* Pretty Modern Browsers */
+  url('../../fonts/MyriadPro-Regular.woff') format('woff'); /* Pretty Modern Browsers */
+}
+
+@font-face {
+  font-family: 'Myriad Pro Condensed';
+  font-style: normal;
+  font-weight: 100;
+  src: url('../../fonts/MyriadPro-Cond.woff') format('woff2'), /* Super Modern Browsers */
+  url('../../fonts/MyriadPro-Cond.woff') format('font-woff'), /* Pretty Modern Browsers */
+  url('../../fonts/MyriadPro-Cond.woff') format('woff'); /* Pretty Modern Browsers */
+}
+
+@font-face {
+  font-family: 'Fjalla One';
+  font-style: normal;
+  font-weight: 900;
+}
+
+.html {
+  font-family: "Moonshiner", sans-serif;
+}
+
 h2 {
   font-size: 66.557px;
 }
@@ -23,6 +72,7 @@ p {
 }
 
 .red-header {
+  font-size: 66.557px;
   font-family: "Moonshiner", sans-serif;
   color: rgb(226, 48, 0);
   line-height: 1.262;
@@ -30,6 +80,14 @@ p {
   -webkit-transform: matrix(0.90148216397562, 0, 0, 0.90148216397562, 0, 0);
   -ms-transform: matrix(0.90148216397562, 0, 0, 0.90148216397562, 0, 0);
   z-index: 16;
+  letter-spacing: 8px;
+  width: 100%;
+  top: 22px;
+
+  @media (max-width: 768px) {
+    font-size: 88.43px;
+    top: -8px;
+  }
 }
 
 .red-header-background {
@@ -37,8 +95,15 @@ p {
   font-family: "Moonshiner", sans-serif;
   color: rgba(226, 48, 0, 0.102);
   line-height: 0.906;
-  -moz-transform: matrix(1.24011248585668, 0, 0, 1.24011248585668, 0, 0);
-  -webkit-transform: matrix(1.24011248585668, 0, 0, 1.24011248585668, 0, 0);
-  -ms-transform: matrix(1.24011248585668, 0, 0, 1.24011248585668, 0, 0);
+  -moz-transform: matrix(1.1, 0, 0, 1.1, 0, 0);
+  -webkit-transform: matrix(1.1, 0, 0, 1.1, 0, 0);
+  -ms-transform: matrix(1.1, 0, 0, 1.1, 0, 0);
   z-index: 17;
+  letter-spacing: 20px;
+}
+
+@media (max-width: 768px) {
+  p {
+    font-size: 20px;
+  }
 }

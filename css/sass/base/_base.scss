@@ -4,29 +4,31 @@
 }
 
 .bg-gray {
-background-color: #212121;
+  background-color: #212121;
 }
 
 .card {
   background-color: initial;
 
-  &.music {
-    img {
-      border-radius: 50%;
-      background-image: -moz-radial-gradient(50% 50%, circle closest-side, rgb(0, 0, 0) 0%, rgb(255, 255, 255) 100%);
-      background-image: -webkit-radial-gradient(50% 50%, circle closest-side, rgb(0, 0, 0) 0%, rgb(255, 255, 255) 100%);
-      background-image: -ms-radial-gradient(50% 50%, circle closest-side, rgb(0, 0, 0) 0%, rgb(255, 255, 255) 100%);
-    }
+  .card-title {
+    position: relative;
+  }
 
-    .song-title {
-      font-family: "Myriad Pro", sans-serif;
-      color: rgb(244, 244, 244);
-    }
+  .card-body {
+    padding-left: 0;
+    padding-right: 0;
+  }
 
-    .song-description {
-      font-size: 12px;
-      font-family: "Myriad Pro", sans-serif;
-      color: rgb(244, 244, 244);
-    }
+  .card-subtitle {
+    font-size: 26.623px;
+    font-family: "Myriad Pro Condensed", sans-serif;
+    line-height: 2.6;
+    letter-spacing: 3px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container-sm, .container {
+    max-width: 590px;
   }
 }
