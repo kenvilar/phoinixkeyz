@@ -125,8 +125,12 @@
     font-size: 107.6px;
     font-family: "Moonshiner", sans-serif;
     color: rgb(0, 0, 0);
-    line-height: 1.2;
-    text-align: center;
+    line-height: 1;
+    padding-top: 90px;
+
+    @media (min-width: 768px) {
+      font-size: 92.734px;
+    }
   }
 
   .second {
@@ -134,12 +138,20 @@
     font-weight: 100;
     color: #cf2b00;
     letter-spacing: 9px;
+
+    @media (min-width: 768px) {
+      font-size: 44px;
+    }
   }
 
   .third {
     font-size: 34px;
     letter-spacing: 4px;
     font-weight: 100;
+
+    @media (min-width: 768px) {
+      font-size: 44px;
+    }
   }
 
   .shop-now {
@@ -156,9 +168,15 @@
   .bg-shopnow {
     background-image: url("../../img/tshirt.png");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center center;
+    background-size: contain;
     width: auto;
     height: 100%;
+
+    @media (max-width: 768px) {
+      background-position: center 0;
+      background-size: 90%;
+    }
   }
 }
 

@@ -1,0 +1,27 @@
+.splide--ttb > .splide__pagination {
+  bottom: 20%;
+
+  @media (min-width: 768px) {
+    bottom: 10%;
+  }
+}
+
+.splide__pagination__page.is-active {
+  transform: scale(1);
+  background: transparent;
+  border: 2px solid #ffffff;
+}
+
+.splide__pagination__page {
+  width: 20px;
+  height: 20px;
+  background: #ffffff;
+  margin: 14px 3px;
+  opacity: 1;
+
+  @media (min-width: 768px) {
+    width: 12px;
+    height: 12px;
+    margin: 8px 3px;
+  }
+}
