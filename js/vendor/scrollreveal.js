@@ -5,7 +5,7 @@ ScrollReveal().reveal('.parallax_bg__top_section', {
   duration: 2000,
 });
 
-ScrollReveal().reveal('.videos__section .wrapper1', { delay: 200 });
+ScrollReveal().reveal('.videos__section .wrapper1', { delay: 500 });
 
 ScrollReveal().reveal('.videos__section .wrapper2', { delay: 1000 });
 
