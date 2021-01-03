@@ -17,6 +17,7 @@
     "parcel-bundler": "^1.12.4",
     "parcel-plugin-imagemin": "^4.0.2",
     "parcel-plugin-data-src": "^1.0.1",
+    "parcel-plugin-keep-asset-folders": "^0.2.0",
     "sass": "^1.32.0"
   },
   "dependencies": {
