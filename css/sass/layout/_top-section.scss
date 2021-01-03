@@ -1,5 +1,5 @@
 .parallax_bg__top_section {
-  background-image: url("../../img/top_section_bg_mobile.png");
+  background-image: url("../../img/top_section_bg_mobile.jpg");
 
   &::after {
     content: '';
@@ -20,7 +20,7 @@
   }
 
   @media (min-width: 768px) {
-    background-image: url("../../img/top_section_bg.png");
+    background-image: url("../../img/top_section_bg.jpg");
     min-height: 987px;
     overflow-x: hidden;
   }
