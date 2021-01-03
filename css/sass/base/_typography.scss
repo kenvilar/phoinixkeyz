@@ -75,7 +75,7 @@ p {
 }
 
 .red-header {
-  font-size: 66.557px;
+  font-size: 60.557px;
   font-family: "Moonshiner", sans-serif;
   color: rgb(226, 48, 0);
   line-height: 1.262;
@@ -87,9 +87,14 @@ p {
   width: 100%;
   top: 22px;
 
-  @media (max-width: 768px) {
+  @media (max-width: 767px) {
     font-size: 88.43px;
     top: -8px;
+  }
+
+  @media (max-width: 576px) {
+    font-size: 70px;
+    letter-spacing: 0;
   }
 }
 
@@ -105,7 +110,7 @@ p {
   letter-spacing: 20px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   p {
     font-size: 20px;
   }

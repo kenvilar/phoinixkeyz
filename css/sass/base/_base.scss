@@ -1,6 +1,6 @@
-//html.sr .load-hidden, {
-//  visibility: hidden;
-//}
+body {
+  min-width: 320px;
+}
 
 .black-bg {
   background-color: #000000;
@@ -31,8 +31,15 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
+  html, body {
+    width: auto !important;
+    overflow-x: hidden !important;
+  }
+}
+
+@media (max-width: 767px) {
   .container-sm, .container {
-    max-width: 570px;
+    max-width: 90%;
   }
 }

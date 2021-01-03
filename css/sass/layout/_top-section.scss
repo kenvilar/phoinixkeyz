@@ -1,12 +1,64 @@
 .parallax_bg__top_section {
-  background-image: url("../../img/person.jpg");
+  background-image: url("../../img/top_section_bg_mobile.png");
 
-  .content-center {
-    padding-top: 61%;
-    min-height: 100%;
+  &::after {
+    content: '';
+    -webkit-box-shadow: inset 0px -54px 100px 55px #000000;
+    box-shadow: inset 0px -54px 100px 55px #000000;
+
+    width: 100%;
+    left: 0;
+    z-index: 3;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  @media (min-width: 576px) {
+    min-height: 120vw;
+  }
+
+  @media (min-width: 768px) {
+    background-image: url("../../img/top_section_bg.png");
+    min-height: 987px;
+    overflow-x: hidden;
+  }
+
+  .phoinix-keyz-bg {
+    background-image: url('../../img/person_bg_mobile.png');
+    z-index: 2;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    background-position: center -70px;
+    background-repeat: no-repeat;
 
     @media (min-width: 768px) {
-      padding-top: 335px;
+      background-image: url("../../img/person_bg.png");
+      background-position: -60px top;
+      width: 1366px;
+    }
+  }
+
+  .content-center {
+    padding-top: 55%;
+    min-height: 100%;
+    position: relative;
+    z-index: 9;
+
+    @media (min-width: 768px) {
+      padding-top: 500px;
+    }
+
+    @media (max-width: 500px) {
+      padding-top: 300px;
     }
 
     .logo img {
@@ -27,11 +79,15 @@
       @media (min-width: 768px) {
         padding: 0 38%;
       }
+
+      @media (max-width: 500px) {
+        padding: 0 0;
+      }
     }
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 767px) {
     background-position: center 0;
-    background-size: 195%;
+    /*background-size: 195%;*/
   }
 }

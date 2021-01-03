@@ -2,8 +2,14 @@
   height: 100vh;
   position: relative;
   background-attachment: fixed;
-  background-position: center center;
+  background-position: center 0;
   background-size: cover;
   background-repeat: no-repeat;
   box-shadow: inset 0 0 1em #111;
+
+  /*min-height: 380px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;*/
 }

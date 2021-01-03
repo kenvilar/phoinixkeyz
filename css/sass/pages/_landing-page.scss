@@ -3,9 +3,10 @@
     .icons a {
       padding: 0 3px;
 
-      @media (max-width: 768px) {
+      @media (max-width: 767px) {
         img {
-          width: 36px;
+          width: 7%;
+          height: auto;
         }
       }
     }
@@ -16,8 +17,9 @@
       background-image: -webkit-radial-gradient(50% 50%, circle closest-side, rgb(0, 0, 0) 0%, rgb(255, 255, 255) 100%);
       background-image: -ms-radial-gradient(50% 50%, circle closest-side, rgb(0, 0, 0) 0%, rgb(255, 255, 255) 100%);
 
-      @media (max-width: 768px) {
+      @media (max-width: 767px) {
         width: 139px;
+        height: auto;
       }
     }
 
@@ -34,7 +36,7 @@
       font-family: "Myriad Pro", sans-serif;
       color: rgb(244, 244, 244);
 
-      @media (max-width: 768px) {
+      @media (max-width: 767px) {
         font-size: 17px;
       }
     }
@@ -67,7 +69,7 @@
     .first {
       font-size: 26px;
 
-      @media (max-width: 768px) {
+      @media (max-width: 767px) {
         font-size: 45px;
         letter-spacing: 8px;
         margin-bottom: 12px;
@@ -77,13 +79,13 @@
     .second {
       font-size: 20px;
 
-      @media (max-width: 768px) {
+      @media (max-width: 767px) {
         font-size: 34px;
         letter-spacing: 5px;
       }
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 767px) {
       .first, .second {
         font-weight: 100 !important;
       }
@@ -92,7 +94,7 @@
 
   .image-wrapper {
     img {
-      @media (max-width: 768px) {
+      @media (max-width: 767px) {
         width: 100%;
       }
     }
@@ -108,7 +110,7 @@
       text-align: center;
       letter-spacing: 3px;
 
-      @media (max-width: 768px) {
+      @media (max-width: 767px) {
         font-size: 69px;
         line-height: 1.7;
       }
@@ -129,7 +131,11 @@
     padding-top: 90px;
 
     @media (min-width: 768px) {
-      font-size: 92.734px;
+      font-size: 82.734px;
+    }
+
+    @media (max-width: 576px) {
+      font-size: 4rem;
     }
   }
 
@@ -160,6 +166,12 @@
     font-size: 74.264px;
     font-family: "Moonshiner-RegularLines", sans-serif;
     color: rgb(0, 0, 0);
+
+    @media (min-width: 1200px) {
+      position: absolute;
+      bottom: 0;
+      right: 17px;
+    }
   }
 
   .second, .third {
@@ -175,7 +187,7 @@
     width: auto;
     height: 100%;
 
-    @media (max-width: 768px) {
+    @media (max-width: 767px) {
       background-position: center 0;
       background-size: 65%;
     }
@@ -184,7 +196,7 @@
 
 .subscribe__section {
   .container {
-    @media (max-width: 768px) {
+    @media (max-width: 767px) {
       width: 100%;
       max-width: 100%;
       padding-right: 15px;
@@ -223,7 +235,7 @@
     font-size: 26px;
     font-family: "Myriad Pro Condensed", sans-serif;
 
-    @media (max-width: 768px) {
+    @media (max-width: 767px) {
       font-size: 44px;
     }
   }
@@ -253,7 +265,7 @@
       color: #000000;
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 767px) {
       border-radius: 0;
       margin-bottom: 8%;
       height: 124px;
@@ -264,9 +276,10 @@
     line-height: 2.2;
     font-family: "Myriad Pro Condensed", sans-serif;
 
-    @media (max-width: 768px) {
+    @media (max-width: 767px) {
       line-height: 2.5;
       width: 90% !important;
+      display: block;
       margin: 0 auto;
       letter-spacing: 3px;
     }
@@ -274,16 +287,22 @@
 }
 
 footer {
+  img.logo {
+    @media (max-width: 576px) {
+      width: 100%;
+    }
+  }
+
   .social-media-icons {
     a {
       padding-left: 0;
       padding-right: 23px;
 
-      @media (min-width: 768px) {
+      /*@media (min-width: 768px) {
         margin-left: 20px;
         padding-left: 0;
         padding-right: 0;
-      }
+      }*/
     }
   }
 
@@ -293,8 +312,8 @@ footer {
     letter-spacing: 0.5px;
     font-weight: 100;
 
-    @media (min-width: 768px) {
+    /*@media (min-width: 768px) {
       letter-spacing: 0.1px;
-    }
+    }*/
   }
 }
