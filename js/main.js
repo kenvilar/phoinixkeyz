@@ -6,5 +6,5 @@ import '@splidejs/splide/dist/css/splide.min.css';
 import '../css/sass/main.scss';
 
 import './vendor/splider';
-// import './vendor/scrollreveal';
+import './vendor/scrollreveal';
 import './vendor/lazyload';
