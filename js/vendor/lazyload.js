@@ -1,5 +1,10 @@
-import LazyloadImage from 'lazyload-image';
+import LazyLoad from 'vanilla-lazyload';
 
-customElements.define('lazyload-image', LazyloadImage, {
-  extends: 'img',
+let ll = new LazyLoad({
+  class_applied: 'lz-applied',
+  class_loading: 'lz-loading',
+  class_loaded: 'lz-loaded',
+  class_error: 'lz-error',
+  class_entered: 'lz-entered',
+  class_exited: 'lz-exited',
 });
