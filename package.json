@@ -34,6 +34,11 @@
     "vanilla-lazyload": "^17.3.0"
   },
   "browserslist": [
-    "cover 99.5%"
+    "cover 99.5%",
+    "last 2 versions",
+    "last 2 years",
+    "> 1%",
+    "IE 10",
+    "since 2015"
   ]
 }
