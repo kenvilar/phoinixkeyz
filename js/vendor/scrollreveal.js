@@ -8,10 +8,11 @@ setTimeout(() => {
 ScrollReveal().reveal('.scrollreveal', {
   delay: 700,
   useDelay: 'onload',
-  interval: 300,
+  interval: 400,
 });
 
 ScrollReveal().reveal('.parallax_bg__top_section .scrollreveal', {
+  useDelay: 'onload',
   delay: 500,
   interval: 200,
   scale: 1,
@@ -21,13 +22,9 @@ ScrollReveal().reveal('.parallax_bg__top_section .scrollreveal', {
 });
 
 ScrollReveal().reveal('.videos__section .scrollreveal', {
+  useDelay: 'onload',
   delay: 600,
   interval: 500,
-});
-
-ScrollReveal().reveal('.shop__section .scrollreveal', {
-  delay: 200,
-  interval: 200,
 });
 
 ScrollReveal().reveal('footer .scrollreveal_to_right', {

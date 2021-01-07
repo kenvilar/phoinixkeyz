@@ -15,8 +15,8 @@
     bottom: 0;
 
     @media (min-width: 768px) {
-      -webkit-box-shadow: inset 0px -54px 100px 55px #000000;
-      box-shadow: inset 0px -54px 100px 55px #000000;
+      -webkit-box-shadow: inset 0px -150px 300px 150px #000000;
+      box-shadow: inset 0px -150px 300px 150px #000000;
     }
   }
 
@@ -63,14 +63,14 @@
     }
 
     @media (max-width: 500px) {
-      padding-top: 300px;
+      padding-top: 330px;
     }
 
     .logo img {
-      width: 50%;
+      /*width: 50%;*/
 
       @media (min-width: 768px) {
-        width: 33%;
+        width: auto;
       }
     }
 
