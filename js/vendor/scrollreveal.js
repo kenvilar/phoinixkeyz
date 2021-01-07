@@ -6,14 +6,14 @@ setTimeout(() => {
 }, 2500);
 
 ScrollReveal().reveal('.scrollreveal', {
-  delay: 700,
+  delay: 500,
   useDelay: 'onload',
-  interval: 400,
+  interval: 200,
 });
 
 ScrollReveal().reveal('.parallax_bg__top_section .scrollreveal', {
   useDelay: 'onload',
-  delay: 500,
+  delay: 300,
   interval: 200,
   scale: 1,
   origin: 'bottom',
@@ -22,25 +22,23 @@ ScrollReveal().reveal('.parallax_bg__top_section .scrollreveal', {
 });
 
 ScrollReveal().reveal('.videos__section .scrollreveal', {
+  delay: 200,
   useDelay: 'onload',
-  delay: 600,
-  interval: 500,
+  interval: 200,
 });
 
-ScrollReveal().reveal('footer .scrollreveal_to_right', {
-  useDelay: 'onload',
+ScrollReveal().reveal('footer .scrollreveal-left', {
   origin: 'left',
-  delay: 200,
-  distance: '120px',
+  delay: 100,
+  distance: '10px',
   easing: 'ease-in-out',
   mobile: false,
 });
 
-ScrollReveal().reveal('footer .scrollreveal_to_left', {
-  useDelay: 'onload',
+ScrollReveal().reveal('footer .scrollreveal-right', {
   origin: 'right',
-  delay: 200,
-  distance: '120px',
+  delay: 100,
+  distance: '10px',
   easing: 'ease-in-out',
   mobile: false,
 });
