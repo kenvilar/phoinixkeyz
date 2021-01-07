@@ -65,7 +65,11 @@
     }
 
     @media (max-width: 500px) {
-      padding-top: 330px;
+      padding-top: 290px;
+    }
+
+    @media (max-width: 360px) {
+      padding-top: 230px;
     }
 
     .logo img {
@@ -73,6 +77,11 @@
 
       @media (min-width: 768px) {
         width: auto;
+      }
+
+      @media (max-width: 360px) {
+        width: 100%;
+        height: auto;
       }
     }
 
