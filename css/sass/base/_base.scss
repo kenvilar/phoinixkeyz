@@ -2,6 +2,10 @@ body {
   min-width: 320px;
 }
 
+.sr .load-hidden {
+  visibility: hidden;
+}
+
 .black-bg {
   background-color: #000000;
   color: #ffffff;
