@@ -18,7 +18,11 @@
     background-attachment: fixed;
   }
 
-  @media (min-width: 1024px) and (min-height: 1366px) {
+  @media (min-width: 1024px) and (height: 1366px) {
+    background-size: contain;
+  }
+
+  @media (min-width: 1024px) {
     background-size: contain;
   }
 
@@ -54,8 +58,12 @@
 
     @media (min-width: 1024px) {
       background-image: url('../../img/person_bg.png');
-      background-size: contain;
+      background-size: cover;
       left: 46%;
+    }
+
+    @media (min-width: 1366px) {
+      background-size: contain;
     }
 
     @keyframes personBg {
@@ -76,16 +84,6 @@
           opacity: 1;
           transform: translate(-46%, 0);
         }
-      }
-    }
-    @keyframes heroContent {
-      0% {
-        opacity: 0;
-        transform: translateY(10px);
-      }
-      100% {
-        opacity: 1;
-        transform: translateY(0);
       }
     }
   }
