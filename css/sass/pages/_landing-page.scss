@@ -50,6 +50,12 @@
         font-family: "Myriad Pro", sans-serif;
         color: #f4f4f4;
         font-weight: bold;
+
+        @media (max-width: 320px) {
+          -webkit-box-flex: 0;
+          flex: 0 0 100%;
+          max-width: 100%;
+        }
       }
 
       .time {
