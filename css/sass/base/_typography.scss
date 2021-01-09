@@ -45,6 +45,18 @@
   url('../../fonts/FjallaOne-Regular.ttf') format('truetype'); /* Safari, Android, iOS */
 }
 
+@font-face {
+  font-family: 'icomoon';
+  font-weight: normal;
+  font-style: normal;
+  font-variant: normal;
+  src: url('../../fonts/icomoon.eot?tedx8j');
+  src: url('../../fonts/icomoon.eot?tedx8j#iefix') format('embedded-opentype'),
+  url('../../fonts/icomoon.ttf?tedx8j') format('truetype'),
+  url('../../fonts/icomoon.woff?tedx8j') format('woff'),
+  url('../../fonts/icomoon.svg?tedx8j#icomoon') format('svg');
+}
+
 .html {
   font-family: "Moonshiner", sans-serif;
 }
@@ -115,4 +127,53 @@ p {
   p {
     font-size: 20px;
   }
+}
+
+[class^="ic-"], [class*=" ic-"] {
+  font-family: 'icomoon' !important;
+  font-size: 17px;
+
+  @media (min-width: 375px) {
+    font-size: 25px;
+  }
+
+  &:hover {
+    color: #e23000 !important;
+  }
+}
+
+.ic-facebook:before {
+  content: '\e902';
+}
+
+.ic-youtube:before {
+  content: '\e908';
+}
+
+.ic-youtube-alt:before {
+  content: '\e907';
+}
+
+.ic-instagram:before {
+  content: '\e903';
+}
+
+.ic-snapchat:before {
+  content: '\e904';
+}
+
+.ic-twitter:before {
+  content: '\e906';
+}
+
+.ic-apple:before {
+  content: '\e901';
+}
+
+.ic-soundcloud:before {
+  content: '\e905';
+}
+
+.ic-spotify:before {
+  content: '\e900';
 }
