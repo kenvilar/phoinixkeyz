@@ -42,6 +42,9 @@
   }
 
   .phoinix-keyz-bg {
+    animation-name: personBg;
+    animation-duration: 1s;
+    animation-fill-mode: both;
     background-image: url('../../img/person_bg_mobile.png');
     transform: translateX(-50%);
     width: 100%;
@@ -60,6 +63,37 @@
       background-image: url('../../img/person_bg.png');
       background-size: contain;
       left: 46%;
+    }
+
+    @keyframes personBg {
+      0% {
+        opacity: 0;
+        transform: translate(-50%, 50px);
+
+        @media (min-width: 1024px) {
+          opacity: 0;
+          transform: translate(-46%, 50px);
+        }
+      }
+      100% {
+        opacity: 1;
+        transform: translate(-50%, 0);
+
+        @media (min-width: 1024px) {
+          opacity: 1;
+          transform: translate(-46%, 0);
+        }
+      }
+    }
+    @keyframes heroContent {
+      0% {
+        opacity: 0;
+        transform: translateY(10px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
     }
   }
 
