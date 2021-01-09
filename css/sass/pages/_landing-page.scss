@@ -3,9 +3,14 @@
     .icons a {
       padding: 0 3px;
 
-      @media (max-width: 767px) {
-        img {
-          height: auto;
+      span {
+        font-size: 23px;
+        border-radius: 50%;
+        border: 1px solid #fff;
+        padding: 8px;
+
+        &:hover {
+          border-color: #e23000;
         }
       }
     }
@@ -265,7 +270,7 @@
     }
 
     @media (max-width: 320px) {
-      font-size: 30px;
+      font-size: 28px;
     }
   }
 
@@ -325,7 +330,21 @@ footer {
   .social-media-icons {
     a {
       padding-left: 0;
-      padding-right: 23px;
+      padding-right: 0;
+
+      &:hover {
+        text-decoration: none;
+      }
+
+      @media (min-width: 260px) {
+        padding-left: 0.40rem;
+        padding-right: 0.40rem;
+      }
+
+      @media (min-width: 540px) {
+        padding-left: 1.4rem;
+        padding-right: 1.4rem;
+      }
     }
   }
 
