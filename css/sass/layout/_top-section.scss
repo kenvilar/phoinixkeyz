@@ -23,19 +23,23 @@
   }
 
   @media (min-width: 1024px) {
-    background-size: cover;
+    background-size: contain;
   }
 
   @media (min-width: 1025px) {
     height: 920px;
   }
 
-  @media (min-width: 2560px) {
+  @media (min-width: 1366px) {
     background-size: cover;
   }
 
   @media (min-width: 1921px) {
     height: 80vh;
+  }
+
+  @media (min-width: 2560px) {
+    background-size: cover;
   }
 
   .phoinix-keyz-bg {
