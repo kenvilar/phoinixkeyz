@@ -1,7 +1,7 @@
 .parallax_bg__top_section {
   background-image: url("../../img/top_section_bg_mobile.jpg");
   background-size: cover;
-  background-attachment: fixed;
+  background-repeat: no-repeat;
   height: 400px;
   width: 100%;
   display: table;
@@ -9,24 +9,13 @@
   overflow: hidden;
   position: relative;
 
-  @media (min-width: 280px) {
-    background-size: contain;
-  }
-
   @media (min-width: 360px) {
     height: 120vw;
   }
 
-  @media (min-width: 540px) {
-    background-size: cover;
-  }
-
-  @media (min-width: 768px) {
-    height: 680px;
-  }
-
   @media (min-width: 1024px) {
     background-image: url("../../img/top_section_bg.jpg");
+    background-attachment: fixed;
   }
 
   @media (min-width: 1024px) and (min-height: 1366px) {
@@ -34,11 +23,15 @@
   }
 
   @media (min-width: 1025px) {
-    height: 100vh;
+    height: 920px;
+  }
+
+  @media (min-width: 2560px) {
+    background-size: cover;
   }
 
   @media (min-width: 1921px) {
-    height: 90vh;
+    height: 80vh;
   }
 
   .phoinix-keyz-bg {
