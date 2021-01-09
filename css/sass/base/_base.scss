@@ -1,5 +1,9 @@
 body {
-  min-width: 320px;
+  min-width: 240px;
+
+  @media (min-width: 360px) {
+    min-width: 360px;
+  }
 }
 
 .sr .load-hidden {

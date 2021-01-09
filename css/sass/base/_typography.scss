@@ -82,23 +82,17 @@ p {
   -webkit-transform: matrix(0.90148216397562, 0, 0, 0.90148216397562, 0, 0);
   -ms-transform: matrix(0.90148216397562, 0, 0, 0.90148216397562, 0, 0);
   z-index: 16;
-  letter-spacing: 8px;
+  letter-spacing: 0;
   width: 100%;
-  top: 22px;
+  top: 10px;
 
-  @media (max-width: 767px) {
-    font-size: 88.43px;
-    top: -8px;
-  }
-
-  @media (max-width: 576px) {
-    font-size: 70px;
-    letter-spacing: 0;
+  @media (min-width: 360px) {
+    letter-spacing: 8px;
   }
 }
 
 .red-header-background {
-  font-size: 92.734px;
+  font-size: 80px;
   font-family: "Moonshiner", sans-serif;
   color: rgba(226, 48, 0, 0.102);
   line-height: 0.906;
@@ -106,7 +100,15 @@ p {
   -webkit-transform: matrix(1.1, 0, 0, 1.1, 0, 0);
   -ms-transform: matrix(1.1, 0, 0, 1.1, 0, 0);
   z-index: 17;
-  letter-spacing: 20px;
+  letter-spacing: 10px;
+
+  @media (min-width: 360px) {
+    font-size: 92.734px;
+  }
+
+  @media (min-width: 768px) {
+    letter-spacing: 20px;
+  }
 }
 
 @media (max-width: 767px) {
